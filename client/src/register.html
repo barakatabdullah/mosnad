@@ -36,21 +36,27 @@
 <div class="w-screen h-screen relative flex items-center justify-center">
     
     <div class="w-2/6 h-4/6 border border-solid border-[#c4c2d0] p-8 rounded-2xl flex items-center justify-center">
-        <form id="login-form" action="" class="flex flex-col items-center justify-center gap-4 w-full h-full">
-            <h3 class="text-[2rem] font-1000">Login</h3>
+        <form id="register-form" action="" class="flex flex-col items-center justify-center gap-4 w-full h-full">
+            <h3 class="text-[2rem] font-1000">Register</h3>
             
+            <div class="border border-solid border-[#c4c2d0] rounded-2xl p-y-2 p-x-4 overflow-hidden w-full">
+                <input name="username" class="bg-transparent outline-none w-full h-full" type="text" placeholder="User Name" required>
+            </div>
             <div class="border border-solid border-[#c4c2d0] rounded-2xl p-y-2 p-x-4 overflow-hidden w-full">
                 <input name="email" class="bg-transparent outline-none w-full h-full" type="email" placeholder="Email" required>
             </div>
             <div class="border border-solid border-[#c4c2d0] rounded-2xl p-y-2 p-x-4 overflow-hidden w-full">
+                <input name="phone" class="bg-transparent outline-none w-full h-full" type="number" placeholder="Phone Number" required>
+            </div>
+            <div class="border border-solid border-[#c4c2d0] rounded-2xl p-y-2 p-x-4 overflow-hidden w-full">
                 <input name="password" class="bg-transparent outline-none w-full h-full" type="password" placeholder="Password" required>
             </div>
+            <div class="border border-solid border-[#c4c2d0] rounded-2xl p-y-2 p-x-4 overflow-hidden w-full">
+                <input name="passwordconfirmation" class="bg-transparent outline-none w-full h-full" type="password" placeholder="Password Confirmation" required>
+            </div>
             <button class="w-full pointer-events-auto cursor-pointer  rounded-full bg-[#4833cc] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#4733ccc4]" type="submit" required>
-                login
+                register
             </button>
-            <a href="/register.html">
-                regiter
-            </a>
 
         </form>
     </div>
