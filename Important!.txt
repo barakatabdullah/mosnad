@@ -1,0 +1,9 @@
+This project is not complete 
+
+follow my repo in GitHub for the final version 
+https://github.com/snacomds/mosnad
+
+
+language used:
+go with gin router for backend
+jwt for authentication 
