@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+    <link href="./assets/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <title>Evanto</title>
+</head>
+
+<body>
+    <div  aria-hidden="true" class="absolute h-screen justify-between items-center inset-0 grid grid-cols-2 -space-x-52  z-0 ">
+        <div class="blur-[150px] mt-auto w-1/4 h-1/2 bg-gradient-to-r from-[#4833cc] to-[rgb(176,28,255)] opacity-40"></div>   
+             <div class="w-full h-full flex items-center justify-end">
+            <div class="blur-[150px] w-1/3 h-1/2 bg-gradient-to-r from-[#4833cc] to-[rgb(176,28,255)] opacity-20"></div>
+        </div>
+    </div>
+
+            <!-- Navbar -->
+            <nav class="sticky w-full top-0 z-50 bg-[#edeafa] border-b boreder-solid boreder-[#817e95]">
+                <div class="flex justify-between container mx-auto items-center pt-6 pb-6 z-10">
+                    <div class="flex gap-20 items-center">
+                        <a href="#" class="font-['Oswald'] text-[#150f3e] cursor-pointer text-3xl">evento</a>
+                        <div class="flex gap-8 items-center">
+                            <a href="#services" class="hover:text-[#4833cc]  transition ease-in">خدماتنا</a>
+                            <a href="#articles" class="hover:text-[#4833cc] transition ease-in">مقالات</a>
+                            <a href="#" class="hover:text-[#4833cc] transition ease-in">عن ايفانتو</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center justify-start py-2 px-4">
+                            <label for="search" class="ti ti-search"></label>
+                            <input class="bg-transparent outline-none" id="search" type="text" placeholder="بحث في الموقع">
+                        </div>
+                        
+                            <button
+                                class="pointer-events-auto cursor-pointer !rounded-full px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-[#4833cc] border border-[#4833cc]  hover:bg-[rgba(72,51,204,0.06)] ">تسجيل</button>
+                        
+                        <div
+                            class="pointer-events-auto cursor-pointer  rounded-full bg-[#4833cc] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#4733ccc4]">
+                            تسجيل الدخول</div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End-->
+
+
+
+    
+    
+        <!-- Hero -->
+        <section class="relative container mx-auto h-screen w-full grid grid-cols-2 gap-12  items-center z-10 ">
+            <div class="flex flex-col gap-8 items-start col-span-1">
+                <h1 class="text-6xl leading-snug font-bold block">احصل على ما تريد ومن أي مكان تريد</h1>
+                <p class="text-[#514f5f] text-lg">عالم من الإمكانيات تحت تصرفك. من مختلف المجالات والخدمات ، نُقدم لك خدمات متنوعة تُساعدك على تحويل أفكارك إلى واقع مدهش.</p>
+                <div class="flex gap-4">
+                   
+                        <button
+                        class="pointer-events-auto cursor-pointer !rounded-full px-8 py-4 text-[1.3rem] font-semibold leading-5 text-[#4833cc] border border-[#4833cc]  hover:bg-[rgba(72,51,204,0.06)] ">اطلب
+                            خدمتك</button>
+                   
+    
+                    <button
+                    class="pointer-events-auto cursor-pointer  rounded-full bg-[#4833cc] px-8 py-4 text-[1.3rem] font-semibold leading-5 text-white hover:bg-[#4733ccc4]">أضف
+                        خدمتك</button>
+                </div>
+            </div>
+            <div class="col-span-1 py-8">
+                <img class="ms-auto w-10/12" src="./assets/photos/hero.svg" alt="">
+            </div>
+        </section>
+        <!-- Hero End-->
+
+
+    <!-- Services -->
+    <section id="services" class="h-[60rem] bg-[#f9f9fa] flex flex-col gap-4 items-center  w-full  py-12">
+
+        <p class="text-[#514f5f]">خدماتنا</p>
+        <h2 class="font-bold text-3xl mb-8">ما هي <span class="text-[#4833cc]">الخدمات</span> التي نقدمها ؟</h2>
+
+        <div class="container mx-auto relative px-20 grid grid-cols-3 gap-8">
+            <div class="flex flex-col gap-4 items-center justify-center w-full aspect-square bg-white rounded-xl py-6 px-10">
+                <i class="ti ti-code-circle text-[#4833cc] text-7xl"></i>
+                <h5 class="text-[#150f3e] text-xl font-bold">مبرمج</h5>
+                <p class="text-center text-[#514f5f]">برمجة مواقع الويب وتطبيقات الهواتف وامن الشبكات</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center justify-center w-full aspect-square bg-white rounded-xl py-6 px-10">
+                <i class="ti ti-percentage text-[#4833cc] text-7xl"></i>
+                <h5 class="text-[#150f3e] text-xl font-bold">محاسب</h5>
+                <p class="text-center text-[#514f5f]">ادارة الحسابات وعمل تحاليل مالية للشركات الناشئة والكبيرة</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center justify-center w-full aspect-square bg-white rounded-xl py-6 px-10">
+                <i class="ti ti-camera text-[#4833cc] text-7xl"></i>
+                <h5 class="text-[#150f3e] text-xl font-bold">مصور</h5>
+                <p class="text-center text-[#514f5f]">عمل تصوير للعديد المناسبات والحفلات فيديو وصور ايضاً</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center justify-center w-full aspect-square bg-white rounded-xl py-6 px-10">
+                <i class="ti ti-tie text-[#4833cc] text-7xl"></i>
+                <h5 class="text-[#150f3e] text-xl font-bold">مسوق إلكتروني</h5>
+                <p class="text-center text-[#514f5f]">إدارة حسابات مواقع التواصل الاجتماعي واطلاق الحملات</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center justify-center w-full aspect-square bg-white rounded-xl py-6 px-10">
+                <i class="ti ti-car text-[#4833cc] text-7xl"></i>
+                <h5 class="text-[#150f3e] text-xl font-bold">تاكسي</h5>
+                <p class="text-center text-[#514f5f]">لتوصيل العملاء بشكل خاص وبشكل مستمر وبأمان</p>
+            </div>
+            <div class="flex flex-col gap-4 items-center justify-center w-full aspect-square bg-white rounded-xl py-6 px-10">
+                <i class="ti ti-dots text-[#4833cc] text-7xl"></i>
+                <h5 class="text-[#150f3e] text-xl font-bold">المزيد</h5>
+                <p class="text-center text-[#514f5f]">العديد من الخدمات المتنوعة من مختلف المجالات والخدمات ، نُقدم لك خدمات متنوعة تُساعدك على تحويل أفكارك إلى واقع مدهش</p>
+            </div>
+
+
+       
+
+        </div>
+
+    </section>
+    <!-- Services End-->
+
+    <!-- How to order -->
+    <section class="h-[800px] w-full py-24 bg-white rounded-[20%]">
+        <h2 class=" text-center font-bold text-3xl text-[#13161E]">كيف أطلب خدمتي</h2>
+
+        <div class="flex items-center gap-2 h-full container mx-auto">
+            <div
+                class=" w-full h-[24rem] bg-gradient-to-t from-[#FF1C60] to-[#7F1CFC] bg-cover p-[1px]  rounded-full overflow-hidden">
+                <div
+                    class="flex flex-col gap-6 justify-center items-center w-full h-full rounded-full bg-white overflow-hidden">
+                    <i class="ti ti-user-plus text-7xl text-gray-700"></i>
+                    <p class="text-gray-700">انشئ حسابك</p>
+                </div>
+            </div>
+            <i class="ti ti-chevron-left text-5xl text-gray-700"></i>
+            <div
+                class=" w-full h-[24rem] bg-gradient-to-t from-[#FF1C60] to-[#7F1CFC] bg-cover p-[1px]  rounded-full overflow-hidden">
+                <div
+                    class="flex flex-col gap-6 justify-center items-center w-full h-full rounded-full bg-white overflow-hidden">
+                    <i class="ti ti-file-search text-7xl text-gray-700"></i>
+                    <p class="text-gray-700">اختر الخدمة</p>
+                </div>
+            </div>
+            <i class="ti ti-chevron-left text-5xl text-gray-700"></i>
+            <div
+                class=" w-full h-[24rem] bg-gradient-to-t from-[#FF1C60] to-[#7F1CFC] bg-cover p-[1px]  rounded-full overflow-hidden">
+                <div
+                    class="flex flex-col gap-6 justify-center items-center w-full h-full rounded-full bg-white overflow-hidden">
+                    <i class="ti ti-tag text-7xl text-gray-700"></i>
+                    <p class="text-gray-700">اختر أفضل سعر</p>
+                </div>
+            </div>
+            <i class="ti ti-chevron-left text-5xl text-gray-700"></i>
+            <div
+                class=" w-full h-[24rem] bg-gradient-to-t from-[#FF1C60] to-[#7F1CFC] bg-cover p-[1px]  rounded-full overflow-hidden">
+                <div
+                    class="flex flex-col gap-6 justify-center items-center w-full h-full rounded-full bg-white overflow-hidden">
+                    <i class="ti ti-heart-handshake text-7xl text-gray-700"></i>
+                    <p class="text-gray-700">انشئ حسابك</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- How to order End -->
+
+    <!-- Most requested -->
+    <section class="container mx-auto h-fit w-full py-32 relative">
+        <h2 class="container mx-auto text-center font-bold text-3xl mb-12">الخدمات الأكثر طلباً</h2>
+
+        <div class="grid grid-cols-3 gap-8">
+            <div class="flex flex-col items-center gap-6 bg-[#191F2E] rounded-xl p-4 col-span-1">
+                <div class="w-full rounded-xl overflow-hidden "><img class="w-full" src="./assets/photos/orderd(1).png"
+                        alt=""></div>
+                <p>محاسب</p>
+                <button
+                class="pointer-events-auto cursor-pointer  rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اطلب الآن</button>
+            </div>
+
+            <div class="flex flex-col items-center gap-6 bg-[#191F2E] rounded-xl p-4 col-span-1">
+                <div class="w-full rounded-xl overflow-hidden "><img class="w-full" src="./assets/photos/orderd(2).png"
+                        alt=""></div>
+                <p>محاسب</p>
+                <button
+                class="pointer-events-auto cursor-pointer  rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اطلب الآن</button>
+            </div>
+            <div class="flex flex-col items-center gap-6 bg-[#191F2E] rounded-xl p-4 col-span-1">
+                <div class="w-full rounded-xl overflow-hidden "><img class="w-full" src="./assets/photos/orderd(3).png"
+                        alt=""></div>
+                <p>محاسب</p>
+                <button
+                class="pointer-events-auto cursor-pointer  rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اطلب الآن</button>
+            </div>
+            <div class="flex flex-col items-center gap-6 bg-[#191F2E] rounded-xl p-4 col-span-1">
+                <div class="w-full rounded-xl overflow-hidden "><img class="w-full" src="./assets/photos/orderd(4).png"
+                        alt=""></div>
+                <p>محاسب</p>
+                <button
+                class="pointer-events-auto cursor-pointer  rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اطلب الآن</button>
+            </div>
+
+            <div class="flex flex-col items-center gap-6 bg-[#191F2E] rounded-xl p-4 col-span-1">
+                <div class="w-full rounded-xl overflow-hidden "><img class="w-full" src="./assets/photos/orderd(1).png"
+                        alt=""></div>
+                <p>محاسب</p>
+                <button
+                class="pointer-events-auto cursor-pointer  rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اطلب الآن</button>
+            </div>
+
+            <div class="flex flex-col items-center gap-6 bg-[#191F2E] rounded-xl p-4 col-span-1">
+                <div class="w-full rounded-xl overflow-hidden "><img class="w-full" src="./assets/photos/orderd(2).png"
+                        alt=""></div>
+                <p>محاسب</p>
+                <button
+                class="pointer-events-auto cursor-pointer  rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اطلب الآن</button>
+            </div>
+        </div>
+    </section>
+    <!-- Most requested End-->
+
+    <!-- Customer opinions -->
+    <section class="w-full pt-24 bg-white overflow-hidden rounded-[20%_20%_0_0]">
+        <h2 class="container mx-auto text-center font-bold text-3xl text-[#13161E] mb-12">آراء عملائنا</h2>
+
+        <div class="customers-swiper container mx-auto overflow-hidden relative ">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div
+                    class="swiper-slide !w-72 !h-fit relative flex flex-col items-center gap-6 bg-[#F3F2F2] rounded-xl overflow-hidden ">
+                    <div class="w-full"><img class="w-full" src="./assets/photos/customers(1).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">اشكر هذه الخدمة فعلاً تنقذك وقت الاحتياج اشكر القائمين
+                        عليها</p>
+                    <p class=" text-black font-bold text-center m-4">حامد علي</p>
+                </div>
+
+                <div
+                    class="swiper-slide !w-72 !h-fit relative flex flex-col items-center gap-6 bg-[#F3F2F2] rounded-xl overflow-hidden ">
+                    <div class="w-full"><img class="w-full" src="./assets/photos/customers(2).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">اشكر هذه الخدمة فعلاً تنقذك وقت الاحتياج اشكر القائمين
+                        عليها</p>
+                    <p class=" text-black font-bold text-center m-4">حامد علي</p>
+                </div>
+
+                <div
+                    class="swiper-slide !w-72 !h-fit relative flex flex-col items-center gap-6 bg-[#F3F2F2] rounded-xl overflow-hidden ">
+                    <div class="w-full"><img class="w-full" src="./assets/photos/customers(3).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">اشكر هذه الخدمة فعلاً تنقذك وقت الاحتياج اشكر القائمين
+                        عليها</p>
+                    <p class=" text-black font-bold text-center m-4">حامد علي</p>
+                </div>
+
+            </div>
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev bg-black !opacity-75 after:!text-xl !text-white p-6 rounded-full"></div>
+            <div class="swiper-button-next bg-black !opacity-75 after:!text-xl !text-white p-6 rounded-full"></div>
+
+        </div>
+    </section>
+    <!-- Customer opinions End-->
+
+
+
+    <!-- Success Partners -->
+    <section class="w-full pt-24 pb-12 bg-white ">
+        <h2 class="container mx-auto text-center font-bold text-3xl text-[#13161E] p-12">شركاء النجاح</h2>
+
+        <div class="container mx-auto flex flex-col gap-4 justify-center items-center">
+            <div class="flex gap-4">
+                <div class="flex items-center rounded-3xl aspect-[4/3] border w-[20rem]   overflow-hidden"><img
+                        class="w-full" src="./assets/photos/logo(6).png" alt=""></div>
+                <div class="flex items-center rounded-3xl aspect-[4/3] border w-60 h-fit  overflow-hidden"><img
+                        src="./assets/photos/logo(3).png" alt=""></div>
+                <div class="flex items-center rounded-3xl aspect-[4/3] border w-[18rem] h-fit  overflow-hidden"><img
+                        class="w-full" src="./assets/photos/logo(2).png" alt=""></div>
+            </div>
+            <div class="flex gap-4">
+                <div class="flex items-center rounded-3xl aspect-[4/3] border w-[17rem] h-fit  overflow-hidden"><img
+                        class="h-full" src="./assets/photos/logo(4).png" alt=""></div>
+                <div
+                    class="flex items-center justify-center rounded-3xl aspect-[4/3] border w-60 h-fit p-2 overflow-hidden">
+                    <img src="./assets/photos/logo(1).png" alt="">
+                </div>
+                <div class="flex items-center rounded-3xl aspect-[4/3] border w-[18rem] h-fit  overflow-hidden"><img
+                        class="w-full" src="./assets/photos/logo(5).png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- Success Partners End-->
+
+
+    <!-- Articles-->
+    <section id="articles" class=" w-full py-24 rounded-[0_0_20%_20%] bg-white overflow-hidden">
+        <h2 class="container mx-auto text-center font-bold text-3xl text-[#13161E] mb-12">المقالات</h2>
+
+        <div class="articles-swiper container mx-auto overflow-hidden relative">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide !w-[35rem] !h-fit relative !flex flex-col items-center gap-4 overflow-hidden ">
+                    <div class="w-full rounded-3xl overflow-hidden"><img class="w-full"
+                            src="./assets/photos/article(1).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">كيف تصبح نجاراً بارعاً في وقت سريع وبشكل ممتاز</p>
+                    <button
+                        class="pointer-events-auto w-fit rounded-full border-solid border border-gray-700 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-gray-700 hover:border-none hover:bg-gradient-to-tr hover:from-[#FF1C60] hover:to-[#7F1CFC] hover:text-white">
+                        اقراء المزيد
+                        <i class="ti ti-external-link text-inherit"></i>
+                    </button>
+
+                </div>
+
+                <div class="swiper-slide !w-[35rem] !h-fit relative !flex flex-col items-center gap-4 overflow-hidden ">
+                    <div class="w-full rounded-3xl overflow-hidden"><img class="w-full"
+                            src="./assets/photos/article(2).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">كيف تصبح نجاراً بارعاً في وقت سريع وبشكل ممتاز</p>
+                    <button
+                        class="pointer-events-auto w-fit rounded-full border-solid border border-gray-700 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-gray-700 hover:border-none hover:bg-gradient-to-tr hover:from-[#FF1C60] hover:to-[#7F1CFC] hover:text-white">
+                        اقراء المزيد
+                        <i class="ti ti-external-link text-inherit"></i>
+                    </button>
+
+                </div>
+
+                <div class="swiper-slide !w-[35rem] !h-fit relative !flex flex-col items-center gap-4 overflow-hidden ">
+                    <div class="w-full rounded-3xl overflow-hidden"><img class="w-full"
+                            src="./assets/photos/article(2).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">كيف تصبح نجاراً بارعاً في وقت سريع وبشكل ممتاز</p>
+                    <button
+                        class="pointer-events-auto w-fit rounded-full border-solid border border-gray-700 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-gray-700 hover:border-none hover:bg-gradient-to-tr hover:from-[#FF1C60] hover:to-[#7F1CFC] hover:text-white">
+                        اقراء المزيد
+                        <i class="ti ti-external-link text-inherit"></i>
+                    </button>
+
+                </div>
+                <div class="swiper-slide !w-[35rem] !h-fit relative !flex flex-col items-center gap-4 overflow-hidden ">
+                    <div class="w-full rounded-3xl overflow-hidden"><img class="w-full"
+                            src="./assets/photos/article(2).png" alt=""></div>
+                    <p class=" text-gray-700 text-center m-4">كيف تصبح نجاراً بارعاً في وقت سريع وبشكل ممتاز</p>
+                    <button
+                        class="pointer-events-auto w-fit rounded-full border-solid border border-gray-700 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-gray-700 hover:border-none hover:bg-gradient-to-tr hover:from-[#FF1C60] hover:to-[#7F1CFC] hover:text-white">
+                        اقراء المزيد
+                        <i class="ti ti-external-link text-inherit"></i>
+                    </button>
+
+                </div>
+            </div>
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev bg-black !opacity-75 after:!text-xl !text-white p-6 rounded-full"></div>
+            <div class="swiper-button-next bg-black !opacity-75 after:!text-xl !text-white p-6 rounded-full"></div>
+
+        </div>
+    </section>
+    <!-- Articles End-->
+
+
+    <!-- Footer-->
+    <footer class="container mx-auto relative">
+        <div class="flex flex-col pt-12 gap-20 divide-y divide-[#0E121B]">
+            <div class="flex justify-between itema-center gap-8">
+                <div class="flex flex-col gap-8 items-start">
+                    <a href="#" class="font-['Oswald'] text-white cursor-pointer text-2xl">evento</a>
+                    <div class="flex gap-8">
+                        <a href="#services" class="hover:text-[#FF1C60]  transition ease-in">خدماتنا</a>
+                        <a href="#articles" class="hover:text-[#FF1C60] transition ease-in">مقالات</a>
+                        <a href="#" class="hover:text-[#FF1C60] transition ease-in">عن ايفانتو</a>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 items-end">
+                    <div class="flex flex-col gap-2 items-start">
+                        <label for="search" class="text-white">آخر الأخبار</label>
+                        <div class="flex flex-col gap-2 items-center justify-start bg-white rounded-full py-2 px-8">
+                            <input class="bg-transparent outline-none w-full text-black" id="search" type="text"
+                                placeholder="Email Address">
+                        </div>
+                    </div>
+                    <div>
+                        <button
+                class="pointer-events-auto cursor-pointer rounded-full bg-gradient-to-tr from-[#FF1C60] to-[#7F1CFC] px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-[#ff1c60a2] hover:bg-gradient-to-tr hover:from-[#ff1c60a4] hover:to-[#7F1CFC]">
+                    اشتراك</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="flex justify-between items-center py-8 mb-6">
+                <div class="flex gap-8">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                </div>
+                <p dir="ltr">© 2024 All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer End-->
+    <script type="module" src="./assets/index.js"></script>
+    <!-- Tabler icons set -->
+    <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/js/tabler.min.js"></script>
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

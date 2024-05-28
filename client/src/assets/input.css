@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    font-family: "Cairo", sans-serif;
+}
+body{
+    width:100%;
+    position: relative;
+    overflow-x:hidden;
+   
+}
+
+
+/* .swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+} */
+
+/* #4833cc */
+/* #150f3e  text */
+
+
+/* #edeafa  bg */
+/* #817e95  text */
+
